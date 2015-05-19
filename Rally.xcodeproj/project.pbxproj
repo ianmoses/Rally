@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FBF8AD71B0A817D002E84C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF8AD61B0A817D002E84C2 /* AppDelegate.swift */; };
+		6FBF8AD91B0A817D002E84C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF8AD81B0A817D002E84C2 /* ViewController.swift */; };
+		6FBF8ADC1B0A817D002E84C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF8ADA1B0A817D002E84C2 /* Main.storyboard */; };
+		6FBF8ADE1B0A817D002E84C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF8ADD1B0A817D002E84C2 /* Images.xcassets */; };
+		6FBF8AE11B0A817D002E84C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF8ADF1B0A817D002E84C2 /* LaunchScreen.xib */; };
+		6FBF8AED1B0A817D002E84C2 /* RallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF8AEC1B0A817D002E84C2 /* RallyTests.swift */; };
+		6FBF8AF71B0AAEE9002E84C2 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBF8AF61B0AAEE9002E84C2 /* FBSDKCoreKit.framework */; };
+		6FDD97791B0ABD580097DF69 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDD97781B0ABD580097DF69 /* FBSDKLoginKit.framework */; };
+		6FDD977B1B0ABD600097DF69 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDD977A1B0ABD600097DF69 /* Bolts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FBF8AE71B0A817D002E84C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FBF8AC91B0A817D002E84C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FBF8AD01B0A817D002E84C2;
+			remoteInfo = Rally;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FBF8AD11B0A817D002E84C2 /* Rally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rally.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FBF8AD51B0A817D002E84C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FBF8AD61B0A817D002E84C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FBF8AD81B0A817D002E84C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FBF8ADB1B0A817D002E84C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FBF8ADD1B0A817D002E84C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6FBF8AE01B0A817D002E84C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6FBF8AE61B0A817D002E84C2 /* RallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RallyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FBF8AEB1B0A817D002E84C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FBF8AEC1B0A817D002E84C2 /* RallyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyTests.swift; sourceTree = "<group>"; };
+		6FBF8AF61B0AAEE9002E84C2 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		6FDD97771B0AB9050097DF69 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		6FDD97781B0ABD580097DF69 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		6FDD977A1B0ABD600097DF69 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FBF8ACE1B0A817D002E84C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDD977B1B0ABD600097DF69 /* Bolts.framework in Frameworks */,
+				6FDD97791B0ABD580097DF69 /* FBSDKLoginKit.framework in Frameworks */,
+				6FBF8AF71B0AAEE9002E84C2 /* FBSDKCoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FBF8AE31B0A817D002E84C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FBF8AC81B0A817D002E84C2 = {
+			isa = PBXGroup;
+			children = (
+				6FBF8AD31B0A817D002E84C2 /* Rally */,
+				6FBF8AE91B0A817D002E84C2 /* RallyTests */,
+				6FBF8AD21B0A817D002E84C2 /* Products */,
+				6FDD977C1B0AD6440097DF69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6FBF8AD21B0A817D002E84C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FBF8AD11B0A817D002E84C2 /* Rally.app */,
+				6FBF8AE61B0A817D002E84C2 /* RallyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FBF8AD31B0A817D002E84C2 /* Rally */ = {
+			isa = PBXGroup;
+			children = (
+				6FDD97771B0AB9050097DF69 /* Bridging-Header.h */,
+				6FBF8AD61B0A817D002E84C2 /* AppDelegate.swift */,
+				6FBF8AD81B0A817D002E84C2 /* ViewController.swift */,
+				6FBF8ADA1B0A817D002E84C2 /* Main.storyboard */,
+				6FBF8ADD1B0A817D002E84C2 /* Images.xcassets */,
+				6FBF8ADF1B0A817D002E84C2 /* LaunchScreen.xib */,
+				6FBF8AD41B0A817D002E84C2 /* Supporting Files */,
+			);
+			path = Rally;
+			sourceTree = "<group>";
+		};
+		6FBF8AD41B0A817D002E84C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FBF8AD51B0A817D002E84C2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FBF8AE91B0A817D002E84C2 /* RallyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FBF8AEC1B0A817D002E84C2 /* RallyTests.swift */,
+				6FBF8AEA1B0A817D002E84C2 /* Supporting Files */,
+			);
+			path = RallyTests;
+			sourceTree = "<group>";
+		};
+		6FBF8AEA1B0A817D002E84C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FBF8AEB1B0A817D002E84C2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FDD977C1B0AD6440097DF69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FDD977A1B0ABD600097DF69 /* Bolts.framework */,
+				6FDD97781B0ABD580097DF69 /* FBSDKLoginKit.framework */,
+				6FBF8AF61B0AAEE9002E84C2 /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FBF8AD01B0A817D002E84C2 /* Rally */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FBF8AF01B0A817D002E84C2 /* Build configuration list for PBXNativeTarget "Rally" */;
+			buildPhases = (
+				6FBF8ACD1B0A817D002E84C2 /* Sources */,
+				6FBF8ACE1B0A817D002E84C2 /* Frameworks */,
+				6FBF8ACF1B0A817D002E84C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rally;
+			productName = Rally;
+			productReference = 6FBF8AD11B0A817D002E84C2 /* Rally.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FBF8AE51B0A817D002E84C2 /* RallyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FBF8AF31B0A817D002E84C2 /* Build configuration list for PBXNativeTarget "RallyTests" */;
+			buildPhases = (
+				6FBF8AE21B0A817D002E84C2 /* Sources */,
+				6FBF8AE31B0A817D002E84C2 /* Frameworks */,
+				6FBF8AE41B0A817D002E84C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FBF8AE81B0A817D002E84C2 /* PBXTargetDependency */,
+			);
+			name = RallyTests;
+			productName = RallyTests;
+			productReference = 6FBF8AE61B0A817D002E84C2 /* RallyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FBF8AC91B0A817D002E84C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ian Moses";
+				TargetAttributes = {
+					6FBF8AD01B0A817D002E84C2 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					6FBF8AE51B0A817D002E84C2 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 6FBF8AD01B0A817D002E84C2;
+					};
+				};
+			};
+			buildConfigurationList = 6FBF8ACC1B0A817D002E84C2 /* Build configuration list for PBXProject "Rally" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FBF8AC81B0A817D002E84C2;
+			productRefGroup = 6FBF8AD21B0A817D002E84C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FBF8AD01B0A817D002E84C2 /* Rally */,
+				6FBF8AE51B0A817D002E84C2 /* RallyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FBF8ACF1B0A817D002E84C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBF8ADC1B0A817D002E84C2 /* Main.storyboard in Resources */,
+				6FBF8AE11B0A817D002E84C2 /* LaunchScreen.xib in Resources */,
+				6FBF8ADE1B0A817D002E84C2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FBF8AE41B0A817D002E84C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FBF8ACD1B0A817D002E84C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBF8AD91B0A817D002E84C2 /* ViewController.swift in Sources */,
+				6FBF8AD71B0A817D002E84C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FBF8AE21B0A817D002E84C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBF8AED1B0A817D002E84C2 /* RallyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FBF8AE81B0A817D002E84C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FBF8AD01B0A817D002E84C2 /* Rally */;
+			targetProxy = 6FBF8AE71B0A817D002E84C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FBF8ADA1B0A817D002E84C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FBF8ADB1B0A817D002E84C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FBF8ADF1B0A817D002E84C2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FBF8AE01B0A817D002E84C2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FBF8AEE1B0A817D002E84C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FBF8AEF1B0A817D002E84C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FBF8AF11B0A817D002E84C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDK",
+				);
+				INFOPLIST_FILE = Rally/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rally/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		6FBF8AF21B0A817D002E84C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDK",
+				);
+				INFOPLIST_FILE = Rally/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rally/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		6FBF8AF41B0A817D002E84C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RallyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rally.app/Rally";
+			};
+			name = Debug;
+		};
+		6FBF8AF51B0A817D002E84C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RallyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rally.app/Rally";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FBF8ACC1B0A817D002E84C2 /* Build configuration list for PBXProject "Rally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FBF8AEE1B0A817D002E84C2 /* Debug */,
+				6FBF8AEF1B0A817D002E84C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FBF8AF01B0A817D002E84C2 /* Build configuration list for PBXNativeTarget "Rally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FBF8AF11B0A817D002E84C2 /* Debug */,
+				6FBF8AF21B0A817D002E84C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FBF8AF31B0A817D002E84C2 /* Build configuration list for PBXNativeTarget "RallyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FBF8AF41B0A817D002E84C2 /* Debug */,
+				6FBF8AF51B0A817D002E84C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FBF8AC91B0A817D002E84C2 /* Project object */;
+}
